@@ -27,7 +27,7 @@ const PortfolioSingle = () => {
     setItem(project[0]);
   }
   fetchProject();
-}, []);
+}, [currentId]);
 
 console.log(item);
   return (

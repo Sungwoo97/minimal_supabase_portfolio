@@ -16,7 +16,7 @@ function App() {
 
   useEffect(()=>{
     async function fetchProjects(){
-      const { data:projects , error } = await supabase
+      const { data:projects } = await supabase
     .from('projects')
     .select()
     .order('id', { ascending: false })

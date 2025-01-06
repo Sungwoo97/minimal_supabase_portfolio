@@ -79,6 +79,7 @@ const Insert = () => {
       console.log(error);
     } else {
       // Handle success
+      console.log(data);
       alert('파일 업로드 성공');
       return filePath;
     }

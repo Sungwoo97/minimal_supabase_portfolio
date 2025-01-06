@@ -12,7 +12,7 @@ const Footer = () => {
           available budget.
         </p>
         <p>
-          <a href="#">Get a free quote &rarr;</a>
+          <a href="/">Get a free quote &rarr;</a>
         </p>
       </div>
       <div className="copyright">
@@ -28,17 +28,17 @@ const Footer = () => {
         </p>
         <ul className="social_links">
           <li>
-            <a href="#">
+            <a href="/">
               <img src="/images/twitter.png" alt="twitter" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img src="/images/facebook.png" alt="facebook" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="/">
               <img src="/images/dribble.png" alt="dribble" />
             </a>
           </li>
